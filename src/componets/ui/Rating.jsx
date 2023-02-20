@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function Rating({rating}) {
+function Ratings({rating}) {
   return (
     <div className="book__rating">
         <div className="book__ratings">
@@ -18,4 +18,4 @@ function Rating({rating}) {
   )
 }
 
-export default Rating
+export default Ratings
